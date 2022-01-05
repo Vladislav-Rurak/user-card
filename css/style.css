@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 15px;
+  flex: 0 1 300px;
+  margin: 0px 15px 15px 0px;
+}
+header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+header h2 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+}
+.main-info span {
+  padding-left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.main-info h3 {
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 900;
+  color: black;
+}
+.main-info {
+  margin-top: 40px;
+}
+.main-info p {
+  display: block;
+  width: 200px;
+  padding-top: 15px;
+  font-size: 10px;
+}
+
+.user-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.white-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  margin-top: auto;
+  color: blue;
+  height: 30px;
+  border-radius: 10px;
+}
+.blue-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  margin-top: 10px;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
